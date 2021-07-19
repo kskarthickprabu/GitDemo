@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51970" started-at="2021-07-18T16:25:24 IST" finished-at="2021-07-18T16:26:16 IST">
+    <groups>
+    </groups>
+    <test name="Validate Udemy Login" duration-ms="21" started-at="2021-07-18T16:25:24 IST" finished-at="2021-07-18T16:25:24 IST">
+    </test> <!-- Validate Udemy Login -->
+    <test name="Validate SearchCources" duration-ms="21" started-at="2021-07-18T16:25:24 IST" finished-at="2021-07-18T16:25:24 IST">
+    </test> <!-- Validate SearchCources -->
+    <test name="Validate Test Cases" duration-ms="51970" started-at="2021-07-18T16:25:24 IST" finished-at="2021-07-18T16:26:16 IST">
+      <class name="POM.TestCases">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:POM.TestCases@fad74ee]" name="login" duration-ms="32755" started-at="2021-07-18T16:25:24 IST" data-provider="getdata" finished-at="2021-07-18T16:25:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kskarthickprabu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$Aadvik@17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:POM.TestCases@fad74ee]" name="login" duration-ms="19078" started-at="2021-07-18T16:25:57 IST" data-provider="getdata" finished-at="2021-07-18T16:26:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[indumathy.as@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$Aadvik@17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- POM.TestCases -->
+    </test> <!-- Validate Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
